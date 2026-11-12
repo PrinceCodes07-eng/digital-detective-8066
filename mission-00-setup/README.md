@@ -53,5 +53,3 @@ I used basic Terminal commands to create folders and files and checked the struc
 ## 8. Commit Details
 
 Commit message: Set up Digital Detective mission structure
-
-Repository status: To be published on GitHub.
