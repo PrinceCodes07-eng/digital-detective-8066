@@ -60,3 +60,4 @@ I am completing each mission separately and maintaining a separate Git commit fo
 - Visual Studio Code
 - GitHub
 
+<!-- Git workflow practice for Mission 6 -->
