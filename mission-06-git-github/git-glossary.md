@@ -28,4 +28,4 @@ A Pull Request is a request to review and merge changes from one branch into ano
 
 ## Why Branches and Pull Requests Are Useful
 
-They allow multiple people to work on the same project safely, review changes, find problems, and collaborate without directly changing the main branch.
+They allow multiple people to work on the same project safely, review changes, find problems, and collaborate without directly changing the main branch..
