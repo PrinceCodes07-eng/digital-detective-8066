@@ -118,3 +118,24 @@ Through this mission, I learned:
 
 Initially, I needed to understand the output of networking commands. I learned how to interpret the ping response time, packet replies, DNS server address and IP addresses returned by nslookup.
 
+## How I Solved the Difficulty
+
+I reviewed the output of the networking commands and identified the important information.
+
+- In `ping`, I checked packet replies and response time.
+- In `nslookup`, I identified the DNS server and returned IP addresses.
+
+This helped me understand how to interpret basic network information.
+
+## Evidence and Files
+
+- `README.md` – Contains the network concepts table, command observations, website communication steps and learning outcomes.
+
+## Conclusion
+
+This mission helped me understand how computers communicate over networks. I also learned how DNS, routers, protocols and client-server communication work together when opening a website.
+
+## Commit Details
+
+- Commit message: `Explain networking concepts and website communication`
+- Changes pushed to GitHub: Yes
