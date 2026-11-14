@@ -1,9 +1,11 @@
 # Mission 4 – Programs
 
 ## Objective
+
 To understand how programs work, the difference between compilers and interpreters, and how an operating system manages program execution.
 
 ## 1. What is a Program?
+
 A program is a set of instructions that tells a computer what tasks to perform.
 
 Examples: Python programs, C++ programs, web browsers and games.
@@ -13,7 +15,7 @@ Examples: Python programs, C++ programs, web browsers and games.
 - **Source Code:** Human-readable instructions written by a programmer.
 - **Executable:** A file or program that the computer can run.
 
-Example:
+Examples:
 - `hello.py` contains Python source code.
 - `hello.cpp` contains C++ source code.
 - `hello` is the compiled executable created from the C++ program.
@@ -21,29 +23,16 @@ Example:
 ## 3. Compiler vs Interpreter
 
 ### Compiler
+
 A compiler translates source code into a form that can be executed, often producing an executable file.
 
 Example: C++ uses a compiler such as `g++`.
 
-Command:
-```bash
-g++ hello.cpp -o hello
-```
-
-Run the executable:
-```bash
-./hello
-```
-
 ### Interpreter
+
 An interpreter executes a program using a language runtime.
 
 Example: Python is commonly described as an interpreted language. Python implementations typically compile source code into bytecode, which the Python Virtual Machine executes.
-
-Command:
-```bash
-python3 hello.py
-```
 
 ## 4. Role of Operating System in Program Execution
 
@@ -63,12 +52,21 @@ When a program starts:
 File: `practice/hello.py`
 
 ```python
-print("Hello from Python!")
+print("Hello, Digital Detective!")
+print("I am learning how computers execute programs.")
 ```
 
-Run:
+Run from the project root:
+
 ```bash
-python3 hello.py
+python3 mission-04-programs/practice/hello.py
+```
+
+Output:
+
+```text
+Hello, Digital Detective!
+I am learning how computers execute programs.
 ```
 
 ### C++ Program
@@ -85,14 +83,22 @@ int main() {
 }
 ```
 
-Compile:
+Compile from the project root:
+
 ```bash
-g++ hello.cpp -o hello
+g++ mission-04-programs/practice/hello.cpp -o mission-04-programs/practice/hello
 ```
 
 Execute:
+
 ```bash
-./hello
+./mission-04-programs/practice/hello
+```
+
+Output:
+
+```text
+Hello from C++!
 ```
 
 ### Observing a Running Process
@@ -109,30 +115,31 @@ time.sleep(30)
 print("Program finished!")
 ```
 
-Run the program in Terminal 1:
+Run in Terminal 1:
+
 ```bash
-python3 wait.py
+python3 mission-04-programs/practice/wait.py
 ```
 
 While it is running, use Terminal 2:
+
 ```bash
 ps aux | grep '[w]ait.py'
 ```
 
 Observation:
+
 - The command displayed the running Python process.
 - The process had a Process ID (PID).
 - After the 30-second wait, the program finished and its process terminated.
 
 ## 6. Important Commands
 
-| Command | Purpose |
-|---|---|
-| `python3 hello.py` | Runs a Python program |
-| `g++ hello.cpp -o hello` | Compiles a C++ program |
-| `./hello` | Executes the compiled program |
-| `ps aux` | Displays running processes |
-| `ps aux | grep '[w]ait.py'` | Searches for the wait.py process |
+- `python3 mission-04-programs/practice/hello.py` – Runs a Python program.
+- `g++ mission-04-programs/practice/hello.cpp -o mission-04-programs/practice/hello` – Compiles a C++ program.
+- `./mission-04-programs/practice/hello` – Executes the compiled program.
+- `ps aux` – Displays running processes.
+- `ps aux | grep '[w]ait.py'` – Searches for the wait.py process.
 
 ## 7. Key Learnings
 
@@ -142,6 +149,14 @@ Observation:
 - The CPU executes instructions.
 - RAM temporarily stores programs and data.
 - The OS releases process resources when a process terminates.
+
+## 8. Difficulty Faced
+
+Initially, I used incorrect file paths when running Python and C++ programs from the project root.
+
+I resolved this by checking the directory structure and using the correct relative paths.
+
+I also learned how to observe a running process using the `ps` command.
 
 ## Conclusion
 
