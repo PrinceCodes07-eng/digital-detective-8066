@@ -61,3 +61,9 @@ I am completing each mission separately and maintaining a separate Git commit fo
 - GitHub
 
 <!-- Git workflow practice for Mission 6 -->
+
+## My Learning
+
+- I learned how to use Linux terminal commands to manage files and folders.
+- I learned Git basics, including staging, committing, and viewing commit history.
+- I learned Python programming and number-system conversions using binary and hexadecimal.
