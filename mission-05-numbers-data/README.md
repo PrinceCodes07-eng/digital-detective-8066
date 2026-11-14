@@ -55,4 +55,25 @@ I learned how to convert numbers between decimal, binary, and hexadecimal system
 
 Initially, I tried running a Terminal command inside the Python interactive environment. I learned to exit the Python prompt using `exit()` before running the command in Terminal.
 
+## How I Solved the Challenge
 
+I learned the difference between the Python interactive prompt and the system Terminal. I used `exit()` to leave the Python prompt and then ran commands in the correct Terminal environment.
+
+## Evidence and Files
+
+The following files contain my work for this mission:
+
+- `manual-conversions.md` – Manual number conversion calculations.
+- `python-verification.md` – Python conversion expressions and results.
+- `number_converter.py` – Decimal-to-binary and decimal-to-hexadecimal converter.
+- `converter-tests.md` – Test cases and outputs.
+- `text-encoding.md` – Notes about ASCII and character encoding.
+
+## Conclusion
+
+This mission helped me understand how computers represent numbers and text. I also gained practical experience using Python to perform number conversions.
+
+## Commit Details
+
+- Commit message: `Build number converter and practise data representation`
+- Changes pushed to GitHub: Yes
