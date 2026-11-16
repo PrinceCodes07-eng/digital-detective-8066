@@ -1,5 +1,11 @@
 # The Digital Detective — Diwali Assignment
 
+## Student Information
+•⁠  ⁠*Student Name:* Prince Sharma
+•⁠  ⁠*Repository Name:* digital-detective-8066
+•⁠  ⁠*USN Reference:* Last four digits: 8066
+•⁠  ⁠*Repository URL:* [https://github.com/PrinceCodes07-eng/digital-detective-8066](https://github.com/PrinceCodes07-eng/digital-detective-8066)
+
 ## About This Project
 
 This repository contains my Diwali Independent Learning Assignment called **The Digital Detective**.
