@@ -1,13 +1,60 @@
 # Mission 01 — Computer Fundamentals
 
-## Objective
+## 1. Task / Objective
+The objective of this mission is to understand the basic working of a computer, its hardware and software, and different types of computer systems.
 
-This mission was an introduction to how computers work, their physical parts, and the software they run.
+## 2. Work Completed
 
-## What I did / practised
+### A. IPOS Cycle
 
-IPOS means Input, Processing, Output and Storage. For example, typing on a keyboard is input, the CPU processes it, the result appears on the screen, and a file can be saved. Hardware includes things like a keyboard, mouse, monitor and CPU. Software includes macOS, Chrome, VS Code and Python. I used VS Code and GitHub.
+IPOS stands for Input, Processing, Output and Storage.
 
-## What I learned and difficulties
+| Stage | Example |
+|---|---|
+| Input | Typing a message using the keyboard |
+| Processing | CPU processes the typed information |
+| Output | Message appears on the screen |
+| Storage | Message is saved on the computer |
 
-I understood that hardware and software work together. I had to get clear on the difference between physical parts and programs, so I used examples from my own computer.
+### B. Hardware Components
+
+Hardware means the physical parts of a computer that we can touch.
+
+1. Keyboard
+2. Mouse
+3. Monitor
+4. CPU
+
+### C. Software Examples
+
+Software is a set of programs that tells the computer what to do.
+
+1. macOS
+2. Google Chrome
+3. Visual Studio Code
+4. Python
+
+## 3. Commands / Tools Used
+
+- Visual Studio Code
+- GitHub
+
+## 4. My Understanding
+
+I learned that a computer takes input, processes the information, gives output and stores data. Hardware and software work together to make a computer function.
+
+## 5. Difficulties Faced
+
+I had to understand the difference between hardware and software.
+
+## 6. How I Resolved Them
+
+I understood the difference by identifying physical computer parts and the programs installed on a computer.
+
+## 7. Evidence / Files
+
+- This Mission 01 README file
+
+## 8. Commit Details
+
+Commit message: Complete Mission 01 — Computer Fundamentals
