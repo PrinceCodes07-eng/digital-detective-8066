@@ -1,17 +1,39 @@
-# Mission 4 — Programs
+# Mission 4 — How Programs Run
 
-## Objective
+## 1. Task / objective
 
-I explored what a program is, how source code differs from an executable, and how the operating system handles a program while it runs.
+Run a simple Python program and compare how compilers and interpreters translate or execute programs.
 
-## What I explored / practised
+## 2. Work completed
 
-I worked with a small Python `hello.py` and a C++ `hello.cpp`. I ran the Python file with `python3`, compiled C++ using `g++`, and ran the compiled output. I also used a `wait.py` script with a 30-second pause and checked it from another Terminal window using `ps aux | grep '[w]ait.py'`. My notes cover source code, executables, compilers, interpreters, CPU, RAM and processes.
+- Created a Python file named `hello.py`.
+- Ran the Python program and checked that it displayed the expected greeting.
+- Prepared a comparison of compilers and interpreters, including when translation or execution happens, typical output, examples and advantages.
 
-## What I learned and difficulties
+## 3. Commands / tools used
 
-One problem was using the wrong relative paths when I ran files from the repository root. I checked the folder layout and corrected the commands. Watching the Python process in `ps` also made the program/process difference easier to understand.
+- `python3 hello.py` — runs the Python program from Terminal.
+- Terminal and a text editor — used to create, save and run the program.
 
-## Conclusion
+## 4. My understanding
 
-This mission helped me connect the concepts I was reading about with commands or small examples I could try myself.
+A compiler translates source code into another form before the program runs. An interpreter carries out program instructions at runtime. The assignment asks me to compare these approaches; it does not require writing a C++ program, creating a compiler file, or installing a C++ compiler.
+
+## 5. Difficulties faced
+
+No major difficulties.
+
+## 6. How I resolved them
+
+Not applicable.
+
+## 7. Evidence / files
+
+- `hello.py`
+- Compiler and interpreter comparison in this README.
+
+## 8. Commit details
+
+Commit message: update Mission 4 documentation to match the assignment requirements.
+
+The update was pushed to GitHub.
