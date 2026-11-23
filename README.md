@@ -1,69 +1,55 @@
 # The Digital Detective — Diwali Assignment
 
-## Student Information
-•⁠  ⁠*Student Name:* Prince Sharma
-•⁠  ⁠*Repository Name:* digital-detective-8066
-•⁠  ⁠*USN Reference:* Last four digits: 8066
-•⁠  ⁠*Repository URL:* [https://github.com/PrinceCodes07-eng/digital-detective-8066](https://github.com/PrinceCodes07-eng/digital-detective-8066)
+## About this project
 
-## About This Project
+This is my Diwali independent learning assignment, **The Digital Detective**. I worked through missions to explore how computers work, practise Terminal commands, run programs, understand number systems, use Git and GitHub, and learn networking basics.
 
-This repository contains my Diwali Independent Learning Assignment called **The Digital Detective**.
 
-In this assignment, I am exploring computer fundamentals, Terminal commands, operating systems, Python, number systems, Git and GitHub, and computer networking.
+I kept each mission in its own folder so the notes and practice files are easier to find.
 
-I have divided my work into different missions so that each topic is organised properly.
+## Mission index
 
-## Mission Index
+| Mission | Topic | Folder |
+|---|---|---|
+| 00 | Repository setup | [mission-00-setup](mission-00-setup/) |
+| 01 | Computer fundamentals | [mission-01-computer-basics](mission-01-computer-basics/) |
+| 02 | Terminal and file management | [mission-02-terminal](mission-02-terminal/) |
+| 03 | Operating systems | [mission-03-operating-system](mission-03-operating-system/) |
+| 04 | Programs | [mission-04-programs](mission-04-programs/) |
+| 05 | Numbers and data | [mission-05-numbers-data](mission-05-numbers-data/) |
+| 06 | Git and GitHub | [mission-06-git-github](mission-06-git-github/) |
+| 07 | Networking | [mission-07-networking](mission-07-networking/) |
+| 08 | Final report | [mission-08-final-report](mission-08-final-report/) |
 
-| Mission | Topic |
-|---|---|
-| [Mission 00](mission-00-setup/README.md) | Repository Setup |
-| [Mission 01](mission-01-computer-basics/README.md) | Computer Fundamentals |
-| [Mission 02](mission-02-terminal/README.md) | Terminal and File Management |
-| [Mission 03](mission-03-operating-system/README.md) | Operating System |
-| [Mission 04](mission-04-programs/README.md) | How Programs Run |
-| [Mission 05](mission-05-numbers-data/README.md) | Numbers and Data |
-| [Mission 06](mission-06-git-github/README.md) | Git and GitHub |
-| [Mission 07](mission-07-networking/README.md) | Computer Networking |
-| [Mission 08](mission-08-final-report/README.md) | Final Report |
+## What I explored
 
-## Topics Covered
+- Computer hardware, software, and the IPOS cycle
+- Navigating and managing files from the Terminal
+- Processes, memory, and the role of an operating system
+- Running Python and compiling a simple C++ program
+- Decimal, binary, and hexadecimal numbers
+- Git commits, branches, and pull requests
+- DNS, network commands, and how a browser loads a website
 
-- Computer hardware and software
-- Input, Processing, Output and Storage (IPOS)
-- Basic Terminal commands
-- File and directory management
-- Operating system and processes
-- Compiler and interpreter
-- Binary, decimal and hexadecimal number systems
-- Python programming
-- Git and GitHub
-- Computer networks and DNS
+## Number converter
 
-## Number Converter
+In Mission 5, I made a small Python script that takes a decimal number and prints its binary and hexadecimal forms.
 
-I have created a Python program that converts decimal numbers into binary and hexadecimal.
 
-To run the program:
+From the repository root, run:
 
 ```bash
-cd mission-05-numbers-data
-python3 number_converter.py
+python3 mission-05-numbers-data/number_converter.py
 ```
 
-## What I Learned
+## Takeaway
 
-Through this assignment, I am learning how computers work, how to use Terminal, how to write simple Python programs and how to manage projects using Git and GitHub.
+This assignment gave me practice with tools and concepts I had mostly been learning for the first time. I got more comfortable using the Terminal, checking my work, running small programs, and keeping changes organised with Git.
 
-I am completing each mission separately and maintaining a separate Git commit for each mission.
-
-## Tools Used
+## Tools
 
 - macOS Terminal
-- Python 3.13.16
-- Git 2.54.0
 - Visual Studio Code
-- GitHub
-
-<!-- Git workflow practice for Mission 6 -->
+- Python
+- C++
+- Git and GitHub
