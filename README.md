@@ -57,3 +57,10 @@ This assignment gave me practice with tools and concepts I had mostly been learn
 - Visual Studio Code
 - Python 3
 - Git and GitHub
+
+
+## My Learning
+
+- I practised terminal commands for managing files and folders.
+- I learned Git basics, including staging, committing, branches and pull requests.
+- I practised Python programming and number-system conversions using binary and hexadecimal.
