@@ -1,55 +1,13 @@
 # Mission 00 — Repository Setup
 
-## 1. Task / Objective
+## Objective
 
-The objective of this mission was to create a GitHub repository and organise the project into separate folders for every mission.
+I started by setting up the project and making folders for all nine missions. I also added README files and created the Python files needed later in the assignment.
 
-## 2. Work Completed
+## What I did / practised
 
-- Created the Digital Detective project folder.
-- Created all nine mission folders.
-- Created separate README files for every mission.
-- Created the Python files required for later missions.
-- Prepared the root README file.
+Commands I used: `python3 --version`, `git --version`, `mkdir`, `touch`, `pwd`, and `find`. I used VS Code to edit the files. The versions I checked were Python 3.13.16 and Git 2.54.0.
 
-## 3. Commands / Tools Used
+## What I learned and difficulties
 
-| Command / Tool | Purpose |
-|---|---|
-| `python3 --version` | Checked Python version. |
-| `git --version` | Checked Git version. |
-| `mkdir` | Created directories. |
-| `touch` | Created empty files. |
-| `pwd` | Checked current directory. |
-| `find` | Viewed the folder structure. |
-| VS Code | Created and edited README files. |
-
-Python version: 3.13.16
-
-Git version: 2.54.0
-
-## 4. My Understanding
-
-A GitHub repository is a place where we store and manage our project files online.
-
-I organised the assignment into different mission folders because it makes the project easier to understand and manage. Each mission has its own README file to explain the work.
-
-## 5. Difficulties Faced
-
-No major difficulties.
-
-## 6. How I Resolved Them
-
-I used basic Terminal commands to create folders and files and checked the structure using the `find` command.
-
-## 7. Evidence / Files
-
-- Root README.md
-- Mission folders 00 to 08
-- Individual mission README files
-- hello.py
-- number_converter.py
-
-## 8. Commit Details
-
-Commit message: Set up Digital Detective mission structure
+I learned that a repository keeps project files together and tracks changes. Splitting the work into mission folders made the assignment easier to navigate. I had no major difficulty; I used `find` to check the structure after creating it.
