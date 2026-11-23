@@ -1,39 +1,63 @@
-# Mission 4 — How Programs Run
+# Mission 4 — Programs and How They Run
 
-## 1. Task / objective
+## Objective
 
-Run a simple Python program and compare how compilers and interpreters translate or execute programs.
+Understand what a program is, how source code is run, and the difference between a compiler and an interpreter.
 
-## 2. Work completed
+## 1. What Is a Program?
 
-- Created a Python file named `hello.py`.
-- Ran the Python program and checked that it displayed the expected greeting.
-- Prepared a comparison of compilers and interpreters, including when translation or execution happens, typical output, examples and advantages.
+A program is a set of instructions that tells a computer what to do. A program is stored as code; when it is started, the operating system creates and manages a running process.
 
-## 3. Commands / tools used
+## 2. Source Code and Machine Instructions
 
-- `python3 hello.py` — runs the Python program from Terminal.
-- Terminal and a text editor — used to create, save and run the program.
+- **Source code** is written by a programmer in a programming language.
+- A **compiler** translates source code into another form, commonly machine code or an intermediate form, before execution.
+- An **interpreter/runtime** reads or executes program instructions while the program runs.
 
-## 4. My understanding
+## 3. Compiler vs Interpreter
 
-A compiler translates source code into another form before the program runs. An interpreter carries out program instructions at runtime. The assignment asks me to compare these approaches; it does not require writing a C++ program, creating a compiler file, or installing a C++ compiler.
+| Feature | Compiler | Interpreter |
+|---|---|---|
+| When translation happens | Usually before the program runs | During program execution |
+| Output | Often creates a separate executable or intermediate file | Usually runs through an interpreter/runtime |
+| Error reporting | Many errors are reported during compilation | Many errors appear when the relevant instruction is executed |
+| Typical use | Common in compiled-language workflows | Common in interpreted-language workflows |
+| Example | A compiled C program | A Python program run with Python 3 |
 
-## 5. Difficulties faced
+The distinction is a useful general model. Real language implementations can combine compilation and interpretation. For example, Python commonly compiles source into bytecode and executes it using a virtual machine.
 
-No major difficulties.
+## 4. Required Python Program
 
-## 6. How I resolved them
+The required file is `hello.py` in this folder.
 
-Not applicable.
+Run it from this directory:
 
-## 7. Evidence / files
+```bash
+python3 hello.py
+```
 
-- `hello.py`
-- Compiler and interpreter comparison in this README.
+Expected output:
 
-## 8. Commit details
+```text
+Hello from Python
+```
 
-Commit message: update Mission 4 documentation to match the assignment requirements.
+## 5. How the Operating System Runs a Program
 
-The update was pushed to GitHub.
+1. The user starts a program.
+2. The OS creates a process and assigns it resources.
+3. The program's instructions are executed by the CPU.
+4. The OS schedules CPU time and manages memory.
+5. When the program finishes, the OS releases its resources.
+
+## What I Learned
+
+A program is stored instructions, while a process is a running instance. Compilers and interpreters are different ways of translating or executing code. The operating system manages the process and the resources it needs.
+
+## Files
+
+- `hello.py` — the required Python program.
+
+## Conclusion
+
+This mission covers the required Python run and the comparison between compilers and interpreters. It does not require a C++ source file or a C++ compiler installation.
