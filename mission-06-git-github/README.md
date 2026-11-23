@@ -2,30 +2,47 @@
 
 ## Objective
 
-I practised the basic Git workflow and learned how GitHub helps keep a project online and makes collaboration possible.
+Understand version control and practise saving changes, working with branches, publishing commits and opening a pull request.
 
-## What I practised
+## 1. Basic Git Workflow
 
-- Checking the working tree with `git status`
-- Staging changes with `git add`
-- Saving a snapshot with `git commit`
-- Viewing past commits with `git log`
-- Working with branches and switching between them
-- Pushing local commits to GitHub
-- Opening a pull request to propose changes
+| Command | Purpose |
+|---|---|
+| `git status` | Check the working tree |
+| `git add README.md` | Stage a selected file |
+| `git commit -m "message"` | Save staged changes as a commit |
+| `git log --oneline` | View commit history |
+| `git branch` | List local branches |
+| `git switch -c update-about` | Create and switch to a branch |
+| `git switch main` | Switch to the main branch |
+| `git push -u origin update-about` | Publish a branch |
+| `git pull` | Fetch and integrate remote changes |
 
-## Terms I learned
+## 2. Staging vs Committing
 
-- **Repository:** project files and their tracked history
-- **Commit:** a saved snapshot of changes
-- **Branch:** a separate line of work
-- **Pull request:** a proposal to bring changes from one branch into another
-- **Staging:** selecting changes to include in the next commit
+Staging selects which changes should be included in the next commit. Committing records the staged changes in the repository's history. A commit is a saved snapshot, not the same thing as pushing to GitHub.
 
-## What I understood
+## 3. Branches
 
-Git helps me keep track of edits instead of just overwriting files. GitHub lets me share the repository and review changes online. I also learned that pushing a branch does not automatically merge it into `main`; a pull request is a separate step.
+A branch is a separate line of work. The assignment branch is named `update-about`. It allows changes to be prepared separately from `main`.
+
+## 4. Pull Request
+
+A pull request proposes changes from one branch to another so they can be reviewed before merging.
+
+- Pull Request: [#1 — Add my learning update to README](https://github.com/PrinceCodes07-eng/digital-detective-8066/pull/1)
+- Source branch: `update-about`
+- Target branch: `main`
+- Status when this README was last checked: open, not merged
+
+## 5. Git Command Glossary
+
+See [git-glossary.md](git-glossary.md) for short explanations of the main Git commands and workflow terms.
+
+## What I Learned
+
+Git records the history of project changes. Branches keep separate work organised, and pull requests allow changes to be reviewed before they are merged into the main branch.
 
 ## Conclusion
 
-This mission gave me a basic workflow for saving, tracking and sharing project changes.
+This mission gave me practice with the basic Git workflow and showed me how GitHub supports sharing and reviewing project changes.
