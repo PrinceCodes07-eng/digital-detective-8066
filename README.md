@@ -1,9 +1,15 @@
 # The Digital Detective — Diwali Assignment
 
+## Student Information
+
+- **Student Name:** Prince Sharma
+- **USN Reference:** 8066
+- **Repository:** digital-detective-8066
+- **GitHub:** [PrinceCodes07-eng/digital-detective-8066](https://github.com/PrinceCodes07-eng/digital-detective-8066)
+
 ## About this project
 
 This is my Diwali independent learning assignment, **The Digital Detective**. I worked through missions to explore how computers work, practise Terminal commands, run programs, understand number systems, use Git and GitHub, and learn networking basics.
-
 
 I kept each mission in its own folder so the notes and practice files are easier to find.
 
@@ -34,7 +40,6 @@ I kept each mission in its own folder so the notes and practice files are easier
 ## Number converter
 
 In Mission 5, I made a small Python script that takes a decimal number and prints its binary and hexadecimal forms.
-
 
 From the repository root, run:
 
