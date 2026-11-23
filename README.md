@@ -32,7 +32,7 @@ I kept each mission in its own folder so the notes and practice files are easier
 - Computer hardware, software, and the IPOS cycle
 - Navigating and managing files from the Terminal
 - Processes, memory, and the role of an operating system
-- Running Python and compiling a simple C++ program
+- Running a Python program and comparing compilers with interpreters
 - Decimal, binary, and hexadecimal numbers
 - Git commits, branches, and pull requests
 - DNS, network commands, and how a browser loads a website
@@ -55,6 +55,5 @@ This assignment gave me practice with tools and concepts I had mostly been learn
 
 - macOS Terminal
 - Visual Studio Code
-- Python
-- C++
+- Python 3
 - Git and GitHub
