@@ -1,82 +1,47 @@
 # Mission 8 — Final Report and Submission
 
-## 1. Task / objective
+## Objective
 
-The objective of this mission was to review the complete Digital Detective repository, verify the mission folders and files, improve the root README, check the Git commit history, and prepare the repository for final submission.
+For the last mission, I reviewed the assignment folders, looked over the main README and project files, and checked the repository's Git status and history.
 
-## 2. Work completed
+## What I checked
 
-- Reviewed the repository structure from Mission 00 to Mission 08.
-- Verified that each mission folder contains a README.md file.
-- Reviewed the root README.md and confirmed that it includes the project introduction, mission index, topics covered, learning summary, and number converter instructions.
-- Checked the Mission 5 folder and confirmed that `number_converter.py` and its supporting documentation are present.
-- Ran the number converter successfully.
-- Reviewed the Mission 7 networking documentation.
-- Checked the Git branch and repository status.
-- Confirmed that the repository is connected to GitHub.
+- Mission folders from 00 to 08 and their README files
+- The root README and its mission links
+- Mission 5's number converter and related notes
+- Mission 7's networking write-up
+- Branch and remote information in Git
+- Recent commits and the repository on GitHub
 
-## 3. Commands / tools used
+## Commands I used
 
-| Command / Tool | Purpose |
-|---|---|
-| `git status` | Checked the working-tree status. |
-| `git branch --show-current` | Checked the current branch. |
-| `git branch -avv` | Checked local and remote branches. |
-| `git remote -v` | Checked the GitHub remote URL. |
-| `git log --oneline` | Reviewed the commit history. |
-| `find` | Listed README files in the mission folders. |
-| `ls -la` | Checked files inside mission folders. |
-| `cat README.md` | Viewed the root README content. |
-| `python3 number_converter.py` | Ran the number converter. |
-| Visual Studio Code | Edited and reviewed project documentation. |
-| GitHub | Hosted and reviewed the repository. |
+`git status`, `git branch --show-current`, `git branch -avv`, `git remote -v`, `git log --oneline`, `find`, `ls -la`, and `cat README.md`. I also ran `python3 number_converter.py` to check the converter.
 
-## 4. My understanding
+## What I learned
 
-This final mission helped me understand why a well-organised repository is important.
+A final review is useful because it catches missing files, broken links or work that has not been pushed. The root README is the entry point for anyone visiting the repository, while the mission folders keep each topic's work together.
 
-A root README acts as the starting point for visitors. It explains the purpose of the project and provides links to individual missions.
+I also had to understand how branches and pull requests work. A pull request can remain open even after its branch has been pushed; it does not change `main` until it is merged.
 
-Separate mission folders make it easier to organise work and find documentation. Git commits help track changes, while GitHub makes the project accessible online.
+## Difficulties
 
-I also learned that a final repository review is important before submitting a project because it helps identify missing files, incorrect links, and incomplete documentation.
+I found it a bit confusing to track which changes were on which branch and what was already on GitHub.
 
-## 5. Difficulties faced
+## How I checked
 
-- Understanding how changes on different Git branches appear on GitHub.
-- Checking whether all mission folders and README files were present.
-- Understanding why an open Pull Request does not automatically update the main branch.
+I used Git status, branch and log commands, and looked at the repository on GitHub to understand the current state.
 
-## 6. How I resolved them
+## Files reviewed
 
-- Used Git branch and status commands to check the current branch and repository state.
-- Used the `find` and `ls` commands to review the repository structure.
-- Checked the GitHub repository to verify pushed changes.
-- Tested the Python number converter to confirm that it runs.
+- Root `README.md`
+- Mission README files
+- Mission 5 number converter and supporting notes
+- Mission 7 networking notes
 
-## 7. Evidence / files
+## Submission status
 
-Important files reviewed:
+The repository is on `main`. Pull Request #1 remains open and unmerged. I will leave it that way unless the assignment specifically requires it to be merged.
 
-- `README.md`
-- `mission-00-setup/README.md`
-- `mission-01-computer-basics/README.md`
-- `mission-02-terminal/README.md`
-- `mission-03-operating-system/README.md`
-- `mission-04-programs/README.md`
-- `mission-05-numbers-data/README.md`
-- `mission-05-numbers-data/number_converter.py`
-- `mission-06-git-github/README.md`
-- `mission-07-networking/README.md`
-- `mission-08-final-report/README.md`
+## Conclusion
 
-## 8. Commit details
-
-**Commit message:** `Complete final report and verify assignment submission`
-
-**Branch:** `main`
-
-**Push status:** Successfully committed and pushed to `origin/main`. Verified on GitHub.
-
-**Mission 6 Pull Request:** PR #1 is still open and has not been merged. It contains 4 commits. Merge only if instructed.
-
+Looking back across the missions, I got practice with Terminal, basic Python and C++, number conversions, operating system concepts, Git and networking. The assignment helped me connect the notes to small tasks I could actually run and check.
